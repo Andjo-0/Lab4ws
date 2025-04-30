@@ -1,0 +1,34 @@
+# ROS 2 build and install folders
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Colcon and CMake temporary files
+*.log
+*.pyc
+*.swp
+*.tmp
+*.bak
+.colcon/
+.colcon_install_layout
+
+# ROS 2 launch and config files (optional, keep only if you generate them dynamically)
+
+*.yaml~
+
+# VSCode or other IDE metadata
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+.venv
+
